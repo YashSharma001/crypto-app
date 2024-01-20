@@ -19,7 +19,6 @@ const Chart = ({ arr = [], currency, days }) => {
             date.push(new Date(arr[i][0]).toLocaleDateString())
         }
         prices.push(arr[i][1])
-
     }
 
     const data = {
@@ -34,7 +33,7 @@ const Chart = ({ arr = [], currency, days }) => {
     };
 
     return (
-        <Line options={{ responsive: true }} data={data} />
+        < Line options={{ responsive: true }} data={data} />
     )
 }
 

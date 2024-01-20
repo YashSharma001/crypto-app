@@ -11,7 +11,7 @@ const Footer = () => {
                     <Text textAlign={['center', 'left']} fontSize={'sm'} letterSpacing={'widest'}>We are the best crypto trading app in India, we provide our guidance at a very affordable prices.</Text>
                 </VStack>
                 <VStack>
-                    <Avatar src={img2} boxSize={"28"} mt={['4', '8']} />
+                    <Avatar  boxSize={"28"} mt={['4', '8']} />
                     <Text fontSize={'lg'} fontWeight={'semibold'}>Our Founder</Text>
                 </VStack>
             </Stack>

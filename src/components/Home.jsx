@@ -9,7 +9,7 @@ const Home = () => {
       <motion.div style={{height:"80vh"}} animate={{translateY:"20px"}} transition={{duration:1,repeat:Infinity,repeatType:"reverse"}}>
         <Image src={img} w={"full"} h={"full"} objectFit={"contain"} filter={"grayscale(1)"} />
       </motion.div>
-      <Text fontSize={"xxx-large"} color={"whiteAlpha.900"} textAlign={"center"} mt={['-48','-16']} >XCrypto</Text>
+      <Text fontSize={"xxx-large"} color={"whiteAlpha.900"} textAlign={"center"} mt={['-40','-16']} >XCrypto</Text>
     </Box>
   )
 }
